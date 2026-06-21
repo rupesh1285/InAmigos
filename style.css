@@ -1624,6 +1624,10 @@ ul {
     /* Disable custom cursor on mobile */
     body { cursor: auto; }
     .cursor-dot, .cursor-glow { display: none; }
+    
+    .about-card {
+        padding: 30px;
+    }
 }
 
 @media (max-width: 480px) {
@@ -1633,6 +1637,15 @@ ul {
     .impact-grid {
         grid-template-columns: repeat(2, 1fr);
         gap: 15px;
+    }
+    .about-card {
+        padding: 20px;
+    }
+    .about-card h3 {
+        font-size: 1.5rem;
+    }
+    .about-card p {
+        font-size: 0.9rem;
     }
     .impact-card {
         padding: 20px 10px;
