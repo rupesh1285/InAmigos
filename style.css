@@ -74,6 +74,31 @@ ul {
     list-style: none;
 }
 
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: var(--bg-dark);
+}
+::-webkit-scrollbar-thumb {
+    background: var(--tertiary);
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: var(--primary);
+}
+
+/* Custom Text Selection */
+::selection {
+    background: var(--primary);
+    color: #fff;
+}
+::-moz-selection {
+    background: var(--primary);
+    color: #fff;
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
